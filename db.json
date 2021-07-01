@@ -1,0 +1,30 @@
+{
+  "company": [
+    {
+      "id": "900674335",
+      "canRegister": false,
+      "info": "We are not able to process your request."
+    },
+    {
+      "id": "900674336",
+      "canRegister": true,
+      "info": ""
+    },
+    {
+      "id": "811033098",
+      "canRegister": true,
+      "info": ""
+    },
+    {
+      "idType": "NIT",
+      "idNumber": "123456789",
+      "companyName": "Sachin",
+      "firstName": "",
+      "lastName": "",
+      "email": "sachin@gmail.com",
+      "phoneNumber": "8939202465",
+      "address": "chennai",
+      "id": "OoFKfFd"
+    }
+  ]
+}

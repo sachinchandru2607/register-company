@@ -1,0 +1,204 @@
+.App{
+  display: flex; 
+  flex-direction: column;
+}
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  width: 100%;
+  font-size: 10px;
+  margin-top: 0%;
+  color: white;
+  position: fixed;
+  z-index: 2;
+}
+
+body,html {
+  margin:0;
+  padding:0;
+  height:100%; 
+  justify-content: center;
+  align-items: center;
+} 
+
+
+
+.company-input-fld {
+  width: 96%;
+  padding: 12px 20px;
+  margin-left: 2%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+.btn-continue {
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 96%;
+  margin-left: 2%;
+}
+
+.btn-center {
+  width: 50%;
+}
+
+
+.content-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  border: 3px solid #282c34; 
+  margin: 10% 26%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.info-header-div {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.input-div{
+  display: flex;
+}
+
+.btn-div{
+  display: flex;
+}
+
+form{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-text { 
+    margin-top: 5%;
+    margin-left: 1%;
+}
+
+.popup {
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+.popup-header{
+  margin-top: 0%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.popup-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+.popup-header h5 {
+  margin: auto;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: 0%;
+}
+
+.close:hover, .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.separator {
+  margin : auto;
+  border-top: 2px dashed #bbb;
+}
+
+select {
+  margin-left: 3%;
+}
+
+.popup-info p {
+margin-top: 2%;
+}
+
+.register-container {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  height: 100vh;
+  margin-top: 80px; 
+  flex-direction: column;
+}
+
+.serice-message {
+  display: flex;
+  margin-top: 2%;
+}
+
+/* Css for tab breakpoint*/
+
+@media only screen and (max-width: 1024px) {
+  .content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    border: 3px solid #282c34; 
+    margin: 20% 5%;
+    width: 90%;
+  }
+  
+}
+
+/* Css for mobile breakpoint*/
+
+@media only screen and (max-width: 640px) {
+  .content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    border: 3px solid #282c34; 
+    margin: 25% 5%;
+    width: 90%;
+  }
+
+  .popup-content {
+    width: 98%;
+  }
+  
+  select{
+    margin-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  .container{
+    margin-left: 2%;
+    margin-right: 0%;
+  }
+}
+
